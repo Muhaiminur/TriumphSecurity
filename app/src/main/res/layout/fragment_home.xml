@@ -1,0 +1,132 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="32dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.audi_abir.triumphsecurity.fragment.HomeFragment"
+    android:id="@+id/home_layout"
+    android:background="#009688">
+
+    <!--android:background="@drawable/bulogo" -->
+    <!--  android:alpha="0.2" -->
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/homerelay"
+        android:background="#009688">
+
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             app:mtf_image="@drawable/ic_mail_black_24dp"
+             app:mtf_cardCollapsedHeight="4dp"
+             app:mtf_animationDuration="500"
+             app:mtf_labelColor="@color/idle"
+             app:mtf_openKeyboardOnFocus="false"
+             android:layout_alignParentTop="true"
+             android:layout_alignParentStart="true"
+             android:id="@+id/username">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="User Name"
+            android:textColor="#BF360C"
+            android:textColorHint="#666"
+            android:textSize="20sp"
+            android:id="@+id/useremail" />
+
+    </com.github.florent37.materialtextfield.MaterialTextField>
+        <com.github.florent37.materialtextfield.MaterialTextField
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            app:mtf_image="@drawable/edittext_show_eye_icon"
+            app:mtf_cardCollapsedHeight="4dp"
+            app:mtf_animationDuration="500"
+            app:mtf_labelColor="@color/idle"
+            app:mtf_openKeyboardOnFocus="false"
+            android:id="@+id/userpass"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/username"
+            android:layout_alignParentStart="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColor="#BF360C"
+                android:textColorHint="#666"
+                android:textSize="20sp"
+                android:id="@+id/userpasse" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <com.github.florent37.materialtextfield.MaterialTextField
+            app:mtf_labelColor="@color/idle"
+            app:mtf_cardCollapsedHeight="4dp"
+            app:mtf_animationDuration="500"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            app:mtf_image="@drawable/server"
+            app:mtf_openKeyboardOnFocus="false"
+            android:layout_below="@+id/userpass"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="14dp"
+            android:layout_alignParentEnd="true">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Device Master ID"
+                android:textColor="#BF360C"
+                android:textColorHint="#666"
+                android:textSize="20sp" />
+
+        </com.github.florent37.materialtextfield.MaterialTextField>
+
+        <com.dd.CircularProgressButton
+            app:cpb_selectorIdle="@color/idle"
+            android:id="@+id/circularButton2"
+            app:cpb_colorIndicatorBackground="@color/cb"
+            app:cpb_colorProgress="@color/cbbb"
+            app:cpb_colorIndicator="@color/cbb"
+            app:cpb_selectorComplete="@color/ok"
+            android:layout_width="196dp"
+            android:layout_height="64dp"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            app:cpb_cornerRadius="48dp"
+            app:cpb_iconComplete="@drawable/adduser"
+            app:cpb_iconError="@drawable/ic_home_black_24dp"
+            app:cpb_textIdle="@string/Register"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/circularButton1"
+            android:layout_marginBottom="19dp" />
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/circularButton1"
+            app:cpb_colorIndicatorBackground="@color/cb"
+            app:cpb_colorProgress="@color/cbbb"
+            app:cpb_colorIndicator="@color/cbb"
+            app:cpb_selectorComplete="@color/ok"
+            android:layout_width="196dp"
+            android:layout_height="64dp"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            app:cpb_cornerRadius="48dp"
+            app:cpb_iconComplete="@drawable/account_check"
+            app:cpb_iconError="@drawable/ic_home_black_24dp"
+            app:cpb_textIdle="@string/Login"
+            app:cpb_selectorIdle="@color/idle"
+            android:layout_above="@+id/circularButton2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="11dp" />
+    </RelativeLayout>
+
+</FrameLayout>

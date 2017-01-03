@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "200777162518",
+    "firebase_url": "https://smartlock-4dcc8.firebaseio.com",
+    "project_id": "smartlock-4dcc8",
+    "storage_bucket": "smartlock-4dcc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200777162518:android:c334f3bb548dce32",
+        "android_client_info": {
+          "package_name": "com.example.audi_abir.smartlock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200777162518-7etbik5be3577pv4jp0mor4spbfsnp2u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.audi_abir.smartlock",
+            "certificate_hash": "B1F4713390AEE45C5DB39FFFB7C48356A01DE2F9"
+          }
+        },
+        {
+          "client_id": "200777162518-d3t078heh6uendfqr3buf86bfs8j9rv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDSp0FwzMxVYtBBf8QUnyGx72RRxcLUEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200777162518-d3t078heh6uendfqr3buf86bfs8j9rv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200777162518:android:a3748aa6f351852c",
+        "android_client_info": {
+          "package_name": "com.example.audi_abir.triumphsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200777162518-oa7djh361tt1j9ffobm55khcq4cbjph3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.audi_abir.triumphsecurity",
+            "certificate_hash": "B1F4713390AEE45C5DB39FFFB7C48356A01DE2F9"
+          }
+        },
+        {
+          "client_id": "200777162518-d3t078heh6uendfqr3buf86bfs8j9rv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDSp0FwzMxVYtBBf8QUnyGx72RRxcLUEY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200777162518-d3t078heh6uendfqr3buf86bfs8j9rv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

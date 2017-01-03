@@ -1,0 +1,35 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.audi_abir.triumphsecurity.fragment.LockFragment"
+    android:id="@+id/lock_layout"
+    android:background="#009688">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.dd.CircularProgressButton
+            android:id="@+id/lock1"
+            app:cpb_colorIndicatorBackground="@color/cb"
+            app:cpb_colorProgress="@color/cbbb"
+            app:cpb_colorIndicator="@color/cbb"
+            app:cpb_selectorComplete="@color/ok"
+            android:layout_width="196dp"
+            android:layout_height="64dp"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            app:cpb_cornerRadius="48dp"
+            app:cpb_iconComplete="@drawable/ic_lock_open_black_24dp"
+            app:cpb_iconError="@drawable/ic_home_black_24dp"
+            app:cpb_textIdle="@string/Lock1s"
+            app:cpb_selectorIdle="@color/idle"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="165dp" />
+    </RelativeLayout>
+
+</FrameLayout>

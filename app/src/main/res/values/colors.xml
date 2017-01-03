@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d32f2f</color>
+    <color name="colorPrimaryDark">#c72c2c</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="idle">#FFEB3B</color>
+    <color name="cb">#F8BBD0</color>
+    <color name="cbb">#455A64</color>
+    <color name="cbbb">#C51162</color>
+    <color name="ok">#880E4F</color>
+</resources>
